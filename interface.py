@@ -5,7 +5,7 @@ import tkinter as tk
 try:
    
     def ligar_luz():
-        requests.get('http://192.168.0.175/ligar')
+        requests.get('SEU_IP_AQUI/ligar')
 
 except:
     print("Erro ao conectar com o dispositivo.")
@@ -14,7 +14,7 @@ except:
 try:
 
     def desligar_luz():
-        requests.get('http://192.168.0.175/desligar')
+        requests.get('SEU_IP_AQUI/desligar')
 
 
 except:
